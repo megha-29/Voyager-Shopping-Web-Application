@@ -1,0 +1,33 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Author     : praveen
+*/
+
+body{ background-color: #EFEFEF;}
+.container-width{max-width: 500px; margin: 0 auto; margin-top: 100px; background-color: #fff; border-radius: 5px; padding: 30px 100px 100px 100px; border: 1px solid #e66000; box-shadow: 0px 0px 6px 2px rgba(0,0,0, 0.2);}
+.btn-default{background-color: #e66000; color: #fff; font-weight: 300; float: left; margin-right: 15px; margin-left: 50px; margin-top: 30px;}
+.btn-default:hover{color:#e66000; background-color: #fff; border: 1px solid #e66000;}
+.label-width{width: 100px;}
+.label-width-image{width: 200px;}
+.heading{padding: 10px 10px 50px 0px; color: #e66000; font-weight: 600; font-size: 20px;}
+.footer{
+    background-color: #2C3E50;
+    width: 100%;
+    padding: 15px;
+    margin-top: 35px;
+
+    bottom: 0px;
+    left: 0px;
+}
+.copyright{color:#fff; font-family:"Lucida Sans Unicode";}
+.footer-position{    max-width: 390px;
+                     margin: 0 auto;
+                     font-size: 14px;}
+.it-height{height: 800px;}
+#wrapper{min-height:800px;
+         position:relative;
+}
