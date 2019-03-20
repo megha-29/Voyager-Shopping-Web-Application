@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<Context path="/NBADProject">
-  <Resource auth="Container" driverClassName="com.mysql.jdbc.Driver" logAbandoned="true" maxActive="100" maxIdle="30" maxWait="10000" name="jdbc/ecommerce" password="Sunshine7!" removeAbandoned="true" removeAbandonedTimeout="60" type="javax.sql.DataSource" url="jdbc:mysql://nbaddb.cbuvyn6d685v.us-east-2.rds.amazonaws.com:3306/nbadproject" username="psharm17"/>
-</Context>
