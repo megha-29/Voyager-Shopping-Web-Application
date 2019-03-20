@@ -18,13 +18,7 @@ public class ConnectionPool {
     private static String sqlPass="Utd5529!";
 
     private ConnectionPool() {
-        /*try {
-            //InitialContext ic = new InitialContext();
-            //dataSource = (DataSource) ic.lookup("java:/comp/env/jdbc/nbadproject");
-            
-        } catch (NamingException e) {
-            System.out.println(e);
-        }*/
+     
          try {
         	 Class.forName("com.mysql.jdbc.Driver");         //loading the driver
              String dbName = "voyager";
