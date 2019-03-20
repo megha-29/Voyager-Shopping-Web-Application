@@ -1,0 +1,278 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+
+body{
+    font-family: "Comic Sans MS";  /*"Lucida Sans Unicode"; /*"Montserrati","HelveticaNeue","Helvetica Neue",Helvetica,Arial,sans-serif;*/
+}
+.header{
+
+}
+.container{
+    margin-top: 30px;
+}
+.searchbar{
+    position: absolute;
+    right: 24px;
+    top: 40px;
+    font-weight: bold;
+    color: #fff;
+    font-size: 19px;
+    background-color: white;
+    color: #e66000;
+    height: 26px;
+    width: 30px;
+    text-align: center;
+    border-radius: 4px;
+}
+#searchb{
+    width: 220px !important;
+    color: #fff;
+    outline: none;
+    z-index: 0;
+    top: 35px;
+    right: 53px;
+    position: absolute;
+    overflow: hidden;
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid #fff;
+    border-radius: 0;
+    height: 30px;
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+
+}
+
+.grid1elements{
+    text-decoration: none;
+}
+.grid1elements ul li{
+    list-style: none;
+    display: block;
+    text-decoration: none;
+    font-weight: normal !important;
+
+}
+.imagediv{
+    display: inline-block;
+    padding: 10px;
+    vertical-align: top;
+}
+.contentofimage{
+    line-height: 20px;
+    display: inline-block;
+    width: 376px;
+}
+#button1{
+    border-radius: 3px;
+    background-color: #e66000;
+    border: none;
+    color: #fff;
+    padding: 5px 10px;
+    box-shadow: 1px 1px 1px 1px grey;
+    text-decoration: none;
+    margin-top: 5px;
+}
+.submitButton{
+    background-color: #F00;
+    color: #FFF;
+    width: 90px;
+    padding: 3px;
+    height: 25px;
+    border-radius: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 10px;
+    font-weight: bold;
+
+}
+h4{
+    color :#e66000;
+}
+.grid2 ul li{
+    list-style: none;
+    list-style: outside none none;
+    display: block;
+    height: 30px;
+    padding: 5px;
+    background-color: #e66000;
+    width: 64px;
+    border-radius: 3px;
+    margin-top: 10px;
+    left: 0;
+    align-content: right;
+    float: right;
+    color: #fff;
+    font-weight: bold;
+    box-shadow: 1px 1px 1px 1px grey;
+}
+ul li:hover{
+    background-color: #e66000;
+}
+
+.grid2 a{
+    text-decoration: none;
+    color: #fff;
+    background-color: #e66000;
+
+    width: 100px;
+    padding: 0px;
+
+}
+.grid2 a:hover{
+    text-decoration: none;
+    color: black;
+    background-color: #e66000;		
+}
+.contentofimage{
+    line-height: 25px;
+    letter-spacing: 0.05em;
+    color: #383838;
+    font-family: 'Helvetica';
+
+    width: 80%;
+}
+.contentofimage a:hover{
+    text-decoration: none;
+    color: #fff;
+    background-color: #e66000;
+}
+.header ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #484848;
+}
+
+.header li {
+    float: left;
+}
+
+.header li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.header li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #e66000;
+}
+.grid2content{
+    margin: 0px 0px 15px;
+    padding: 15px 0px 30px;
+    border-bottom: 1px solid #EBEBEB;
+}
+h3{
+    border-bottom: 1px solid #EBEBEB;
+    padding: 0px 15px 20px 0px;;
+}
+.buybutton{
+    display: inline-block;
+    margin-top: 10px;
+    vertical-align: top;
+    cursor: pointer;
+    padding: 0px 22px;
+    background: rgb(255, 255, 255) none repeat scroll 0% 0%;
+    border: 1px solid #e66000;;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 23px;
+    letter-spacing: 0.0em;
+    color: #e66000;;
+    font-size: em;
+    font-weight: bold;
+
+}
+.buybutton:hover{
+    background-color: #e66000;
+    color: #fff;
+}
+.glyphicon-pencil{
+    color: #e66000;
+}
+#searchBar{
+    margin-top: 14px;
+    border: none;
+    Border-bottom: 1px solid white;
+    background-color: #222 !important;
+    color: #fff !important;
+    outline: none !important;
+}
+.search-list:hover{background-color: transparent !important;}
+.searchButton{
+    border: 2px solid grey;
+    background-color: grey;
+    border-radius: 28px;
+    color: #fff;
+    margin-right: 12px;
+}
+.copyright{color:#fff; font-family:"Lucida Sans Unicode";}
+.footer-position{    max-width: 390px;
+                     margin: 0 auto;
+                     font-size: 14px;}
+.it-height{height: 800px;}
+#wrapper{min-height:800px;
+         position:relative;
+}
+.footer{
+    
+    background-color: #2C3E50;
+    width: 100%;
+    padding: 15px;
+    margin-top: 50%;
+
+    bottom: 0px;
+    left: 0px;
+}
+
+.addtocart{
+    display: inline-block;
+    margin-top: 10px;
+    vertical-align: top;
+    cursor: pointer;
+    padding: 0px 22px;
+    background: rgb(255, 255, 255) none repeat scroll 0% 0%;
+    border: 1px solid #e66000;;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 23px;
+    letter-spacing: 0.0em;
+    color: #e66000;;
+    font-weight: bold;
+    float:right;
+
+}
+.addtocart:hover{
+    background-color: #e66000;
+    color: #fff;
+}
+
+.productQuantity{
+    float:right;
+    border: 1px solid #e66000;;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    margin-top: 10px;
+    margin-right: 10px;
+    height: 27px;
+}
+
+.imagediv img{
+    width : 100px;
+    height:100px;
+}

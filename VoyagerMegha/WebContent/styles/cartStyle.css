@@ -1,0 +1,89 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+
+.table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th{padding: 15px;}
+.table a{
+    font-weight: 200;
+    display: block;
+    background-color: #e66000;
+    text-decoration: none;
+    color: #fff;
+    padding: 4px 6px;
+    border-radius: 7px;
+    text-align: center;
+}
+.table a:hover{
+    color: #fff;
+    background-color: #e66000;
+
+}
+
+.addtocart{
+    font-weight: 200;
+    display: block;
+    background-color: #e66000;
+    text-decoration: none;
+    border: none;
+    box-shadow: none;
+    color: #fff;
+    padding: 4px 6px;
+    border-radius: 7px;
+    text-align: center;
+    width: 100px;
+}
+
+.addbutton{font-weight: 200;
+           display: inline-block;
+           background-color: #e66000;
+           text-decoration: none;
+           margin-right: 15px;
+           color: #fff;
+           padding: 2px 6px;
+           width: 150px;
+           margin-top: 0px;
+           margin-bottom: 30px;
+           border-radius: 7px;
+           text-align: center;
+           text-decoration: none;}
+.addbutton:hover{
+    color: #e66000;
+    background-color: #fff;
+    border: 1px solid #e66000;
+    text-decoration: none;
+}
+.footer{
+    background-color: #2C3E50;
+    width: 100%;
+    padding: 15px;
+    margin-top: 35px;
+
+    bottom: 0px;
+    left: 0px;
+}
+.copyright{color:#fff; font-family:"Lucida Sans Unicode";}
+.footer-position{    max-width: 390px;
+                     margin: 0 auto;
+                     font-size: 14px;}
+.it-height{height: 800px;}
+#wrapper{min-height:800px;
+
+}
+.buybutton{
+    display: inline-block;
+    margin-top: 10px;
+    vertical-align: top;
+    cursor: pointer;
+    padding: 0px 22px;
+    background: rgb(255, 255, 255) none repeat scroll 0% 0%;
+    border: 1px solid #e66000;;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 23px;
+    letter-spacing: 0.0em;
+    color: #e66000;;
+    font-weight: bold;
+
+}
