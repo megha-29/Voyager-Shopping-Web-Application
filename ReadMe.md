@@ -7,9 +7,9 @@ It offers products for preparing your outdoor kit just the right way.
 
 ### Tech stack used for the web application:
 
-Front end - Bootstrap, CSS
-Back end - JSP, Servlets, Java Model Classes
-Database - MYSQL
+- [ ] Frontend - Bootstrap, CSS
+- [ ] Backend - JSP, Servlets, Java Model Classes
+- [ ] Database - MySQL
 
 ### Key Features:
 
